@@ -6,6 +6,9 @@
   "license": "MIT",
   "main": "dist/og-image-element.js",
   "module": "dist/og-image-element.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
@@ -70,6 +73,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BoyWithSilverWings/og-image-element"
+    "url": "https://github.com/croutonn/og-image-element"
   }
 }
