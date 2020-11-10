@@ -26,7 +26,7 @@ export class OgImageElement extends LitElement {
         hyphens: auto;
       }
       h1 {
-        font-size: 4em;
+        font-size: var(--headingSize, 4em);
         font-family: var(--headingFont, serif);
         font-weight: var(--headingWeight, 400);
         font-kerning: normal;
