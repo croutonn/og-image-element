@@ -19,12 +19,20 @@ export class OgImageElement extends LitElement {
         background: var(--background, #ffffff);
         color: var(--fontColor, #000000);
         font-size: var(--fontSize, 100%);
+        font-kerning: none;
+        font-feature-settings: normal;
+        hanging-punctuation: allow-end;
+        line-break: loose;
+        hyphens: auto;
       }
       h1 {
-        font-weight: 400;
-        letter-spacing: 0.1rem;
         font-size: 4em;
         font-family: var(--headingFont, serif);
+        font-weight: var(--headingWeight, 400);
+        font-kerning: normal;
+        font-feature-settings: 'palt' 1;
+        line-break: strict;
+        hyphens: manual;
         margin: 0;
       }
       p {

@@ -1,8 +1,8 @@
 {
-  "name": "@agney/og-image-element",
+  "name": "@croutonn/og-image-element",
   "version": "0.2.3",
   "description": "Webcomponent og-image-element for generating Open Graph Images",
-  "author": "Agney Menon <agney@outlook.in>",
+  "author": "croutonn <croutonna@gmail.com>",
   "license": "MIT",
   "main": "dist/og-image-element.js",
   "module": "dist/og-image-element.js",
