@@ -2,16 +2,18 @@
 
 To be used with [Open Graph Generator Image Action](https://github.com/BoyWithSilverWings/generate-og-image)
 
-![Screenshot](/demo/shot.png?raw=true "Element Output Generated")
+![Screenshot](/demo/shot.png?raw=true 'Element Output Generated')
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
 ## Installation
+
 ```bash
-npm i og-image-element
+npm i @croutonn/og-image-element
 ```
 
 ## Usage
+
 ```html
 <script type="module">
   import 'og-image-element/og-image-element.js';
@@ -35,16 +37,19 @@ og-image-element {
 ```
 
 ## Testing using karma (if applied by author)
+
 ```bash
 npm run test
 ```
 
 ## Demoing using storybook (if applied by author)
+
 ```bash
 npm run storybook
 ```
 
 ## Linting
+
 ```bash
 npm run lint
 ```
