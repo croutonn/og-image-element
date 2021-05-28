@@ -1,8 +1,8 @@
 # \<og-image-element>
 
-To be used with [Open Graph Generator Image Action](https://github.com/BoyWithSilverWings/generate-og-image)
+To be used with [Open Graph Generator Image Action](https://github.com/croutonn/generate-og-image)
 
-![Screenshot](/demo/shot.png?raw=true 'Element Output Generated')
+![Screenshot](https://raw.githubusercontent.com/croutonn/og-image-element/main/demo/shot.png 'Element Output Generated')
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 

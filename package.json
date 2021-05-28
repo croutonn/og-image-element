@@ -18,10 +18,10 @@
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
-    "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
-    "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
-    "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
-    "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "lint:eslint": "eslint --ext .js,.html . --ignore-path .lintignore",
+    "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .lintignore",
+    "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .lintignore",
+    "format:prettier": "prettier \"**/*.js\" --write --ignore-path .lintignore",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "format": "npm run format:eslint && npm run format:prettier",
     "test": "karma start --coverage",
@@ -72,8 +72,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
-      "prettier --write",
+      "eslint --fix --ignore-path .lintignore",
+      "prettier --write --ignore-path .lintignore",
       "git add"
     ]
   },
