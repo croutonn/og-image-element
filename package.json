@@ -1,6 +1,6 @@
 {
   "name": "@croutonn/og-image-element",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Webcomponent og-image-element for generating Open Graph Images",
   "author": "croutonn <croutonna@gmail.com>",
   "license": "MIT",
